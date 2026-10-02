@@ -82,7 +82,7 @@ O dataset apresentava nulos em todas as 17 colunas:
 Foram identificados **32 registros duplicados**, todos da raça Angora, concentrados no final do dataset.
 
 #### 6. Strings "NaN" virando texto
-Após substituições, algumas colunas ficaram com o texto `"NaN"` ou `"nan"` ao invés de valor nulo real — convertidas para `np.nan` e preenchidas com a moda.
+Após substituições, algumas colunas ficaram com o texto `"NaN"` ou `"nan"` ao invés de valor nulo real convertidas para `np.nan` e preenchidas com a moda.
 
 ---
 
@@ -100,7 +100,7 @@ O **Maine Coon** confirmou ser a maior raça:
 <img width="955" height="550" alt="image" src="https://github.com/user-attachments/assets/464b7a2b-323e-432c-9723-9bef9d166e54" />
 
 
-Resultado condizente com a realidade — o Maine Coon é uma das maiores raças domésticas do mundo.
+Resultado condizente com a realidade o Maine Coon é uma das maiores raças domésticas do mundo.
 
 ### Raça e país predominantes
 - **Ragdoll** é a raça mais registrada (508 gatos), seguido do Maine Coon (306) e da Angora (289)
@@ -110,7 +110,7 @@ Resultado condizente com a realidade — o Maine Coon é uma das maiores raças 
 
 
 ### Cor do pelo por sexo
-- **Red/cream** é fortemente predominante em **machos** (117 machos vs 31 fêmeas) — a diferença mais expressiva do dataset
+- **Red/cream** é fortemente predominante em **machos** (117 machos vs 31 fêmeas) a diferença mais expressiva do dataset
 - **Branco** é levemente mais comum em **machos** (149 vs 132)
 - **Seal** e **preto** têm distribuição equilibrada, com leve predominância feminina no seal (164 vs 142)
 
@@ -120,21 +120,21 @@ Resultado condizente com a realidade — o Maine Coon é uma das maiores raças 
 ### Cor do pelo por raça
 Os dados revelaram padrões muito bem definidos por raça:
 - **Angora** → predominantemente **branco** (220 de 289 gatos)
-- **Ragdoll** → predominantemente **seal** (305 de 508 gatos) — faz sentido pois o padrão colorpoint é característico da raça
+- **Ragdoll** → predominantemente **seal** (305 de 508 gatos) faz sentido pois o padrão colorpoint é característico da raça
 - **Maine Coon** → maior variedade de cores, com destaque para **preto** (155) e **brown/chocolate** (74)
 
 <img width="1155" height="549" alt="image" src="https://github.com/user-attachments/assets/ac923fb4-e1a7-4602-b273-676575e2e444" />
 
 
 ### Brincadeira e peso
-Correlação negativa de **-0.26** — gatos que brincam menos com o dono tendem a pesar mais. Relação moderada, pois raça e idade também influenciam o peso.
+Correlação negativa de **-0.26** gatos que brincam menos com o dono tendem a pesar mais. Relação moderada, pois raça e idade também influenciam o peso.
 
 <img width="1054" height="549" alt="image" src="https://github.com/user-attachments/assets/7d1d9348-4aae-4cc2-8120-0b1b04d9b378" />
 
 
 ### Idade, peso e brincadeira
-- **Idade x Peso:** correlação de **+0.47** — a mais forte entre as analisadas. Gatos mais velhos tendem a pesar mais de forma consistente
-- **Idade x Brincadeira:** correlação de **-0.26** — gatos mais velhos brincam menos com o dono, esperado pois filhotes são naturalmente mais ativos
+- **Idade x Peso:** correlação de **+0.47** a mais forte entre as analisadas. Gatos mais velhos tendem a pesar mais de forma consistente
+- **Idade x Brincadeira:** correlação de **-0.26** gatos mais velhos brincam menos com o dono, esperado pois filhotes são naturalmente mais ativos
 
 <img width="1352" height="557" alt="image" src="https://github.com/user-attachments/assets/d0f2cf4c-946f-4cd9-b1ae-1b7139b5d497" />
 
