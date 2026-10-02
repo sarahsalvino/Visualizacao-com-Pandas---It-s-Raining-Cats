@@ -155,7 +155,7 @@ Correlação negativa de **-0.26** gatos que brincam menos com o dono tendem a p
 
 1. Clone o repositório
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone (https://github.com/sarahsalvino/Visualizacao-com-Pandas---It-s-Raining-Cats.git)
 ```
 
 2. Instale as dependências
